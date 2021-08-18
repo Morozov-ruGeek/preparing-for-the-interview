@@ -6,7 +6,12 @@
 
     <groupId>ru.morozov</groupId>
     <artifactId>Preparing-for-the-interview</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>simple-hibernate</module>
+        <module>simple-web</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

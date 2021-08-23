@@ -9,9 +9,9 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import java.io.IOException;
 
-public class Servlet implements javax.servlet.Servlet {
+public class SimpleServlet implements javax.servlet.Servlet {
 
-    private static final Logger logger = LoggerFactory.getLogger(Servlet.class);
+    private static final Logger logger = LoggerFactory.getLogger(SimpleServlet.class);
 
     private ServletConfig config;
 

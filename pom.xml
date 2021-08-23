@@ -11,6 +11,7 @@
     <modules>
         <module>simple-hibernate</module>
         <module>simple-web</module>
+        <module>simple-spring</module>
     </modules>
 
     <properties>
